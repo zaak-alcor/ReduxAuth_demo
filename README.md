@@ -60,9 +60,3 @@ También hay un archivo `firestore.rules` en el repo para usar con Firebase CLI.
 - `src/components/task-demo.tsx` - lista de tareas y operaciones en Firestore.
 - `src/lib/firebase/client.ts` - inicialización de Firebase.
 - `.env.example` - variables de entorno de ejemplo.
-
-## Buenas prácticas antes de subir al repo
-
-- Elimina o no incluyas `.env.local` en Git.
-- No dejes reglas abiertas en Firestore en producción.
-- Si quieres, usa Firebase Emulator Suite para pruebas locales.
